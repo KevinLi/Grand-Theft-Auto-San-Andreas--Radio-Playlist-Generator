@@ -18,7 +18,6 @@ songs = {
 }
 
 dj_talk = {
-    "All America loves a cowboy.ogg":                                    06.768,
     "Being faithful and cheating at the same time.ogg":                  39.304,
     "Belt buckles.ogg":                                                  12.608,
     "Darwinism.ogg":                                                     07.416,
@@ -45,6 +44,7 @@ dj_talk = {
 }
     
 radio_name = {
+    "All America loves a cowboy.ogg":                                    06.768,
     "Barefoot and pregnant again.ogg":                                   06.759,
     "Farm animals.ogg":                                                  10.976,
     "From cow poking to cow-tipping.ogg":                                08.432,

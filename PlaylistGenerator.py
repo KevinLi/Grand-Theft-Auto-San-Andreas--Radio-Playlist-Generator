@@ -95,9 +95,6 @@ class PlaylistGenerator(object):
 
             self.time += track_length
             self.update_time(track_length)
-            self.ad_time(track_length)
-            self.dj_time(track_length)
-            self.rn_time(track_length)
 
             # Ads, DJ, RN
             if self.ads and self.time_since_ad > 720 and self.tracks_since_ad > random.randint(2, 5):
@@ -124,7 +121,7 @@ class PlaylistGenerator(object):
 
                 self.rn_last_played.append(track)
 
-            elif dj_talk and self.time_since_dj > random.randint(210, 480) and self.tracks_since_dj > random.randint(1,2):
+            elif dj_talk and self.time_since_dj > random.randint(210, 480) and self.tracks_since_dj > random.randint(1,3):
                 track = self.next_dj(dj_talk)
                 track_length = self.dj_talk[track]
 
