@@ -1,0 +1,9 @@
+Grand Theft Auto: San Andreas Radio Playlist Generator
+
+Usage:
+	Copy GTA:SA audio files into STREAMS_IN
+	Download Radio Free San Andreas
+		http://www.lysator.liu.se/~creideiki/radio-free-san-andreas/
+		http://www.gamefront.com/files/4343698
+	Run extract.bat
+	Run Radio.py
